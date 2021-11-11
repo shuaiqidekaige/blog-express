@@ -3,12 +3,12 @@
     "target": "ESNEXT",
     "module": "commonjs",
     "outDir": "./build",
-    "strict": true,
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*"
